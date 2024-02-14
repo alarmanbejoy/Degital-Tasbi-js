@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <title>digital tasbi</title>
+</head>
+<body>
+    <main>
+        <div class="title-container ">
+            <h1 class="mb-4 text-4xl text-center  mt-20 font-extrabold text-blue-600" >
+                Digital Tasbi
+            </h1>
+        </div>
+
+        <section class="flex gap-3 justify-center mt-20">
+            <div class="card w-96 bg-base-100 shadow-xl ">
+                <div class="card-body">
+                  <h2 class="card-title ml-auto mr-auto">Subhan Allah</h2>
+                  <p id="subahanAllahDisplay" class="text-center text-3xl" >0</p>
+                  <div class="card-actions justify-center">
+                    <button id="subhanAllahIncrimentBtn" class="btn bg-green-500 text-white ">INCRIMENT</button>
+                    <button id="subhanAllahDecrimentBtn" class="btn bg-red-400 text-white ">DECRIMENT</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-100 shadow-xl ">
+                <div class="card-body">
+                  <h2 class="card-title ml-auto mr-auto">Allhamdullah</h2>
+                  <p id="allhamdullahDisplay"  class="text-center text-3xl" >0</p>
+                  <div class="card-actions justify-center">
+                    <button id="allhamdullahIncrimentBtn" class="btn bg-green-500 text-white ">INCRIMENT</button>
+                    <button id="allhamdullahDecrimentBtn" class="btn bg-red-400 text-white ">DECRIMENT</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-100 shadow-xl ">
+                <div class="card-body">
+                  <h2 class="card-title ml-auto mr-auto">Allhuakbar</h2>
+                  <p  id="AllhuakbarDisplay"  class="text-center text-3xl" >0</p>
+                  <div class="card-actions justify-center">
+                    <button id="allhuakbarIncrimentBtn" class="btn bg-green-500 text-white ">INCRIMENT</button>
+                    <button id="allhuakbarDecrimentBtn" class="btn bg-red-400 text-white ">DECRIMENT</button>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+<div id="resetBtn" class="resetContainer flex justify-center">
+    <button class="btn btn-warning mt-10 text-white ">RESET ALL TASBI</button>
+</div>
+
+    </main>
+
+
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>
